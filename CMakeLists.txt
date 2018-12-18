@@ -1068,3 +1068,8 @@ option(WITH_TOOLS "build with tools" ON)
 if(WITH_TOOLS)
   add_subdirectory(tools)
 endif()
+
+option(WITH_EXAMPLES "build with examples" ON)
+if(WITH_EXAMPLES)
+  add_subdirectory(examples)
+endif()
